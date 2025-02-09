@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug related to lazy evaluation in Haskell's `sort` function from `Data.List`. The `bug.hs` file contains the problematic code, which appears to work correctly for simple lists, but can fail unexpectedly with infinite or computationally intensive lists. The `bugSolution.hs` file presents the correct approach and how to mitigate the issue.
